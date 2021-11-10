@@ -20,10 +20,10 @@ html{
     bottom: 20px;
     padding: 5px;
     font-size:50px;
-    display: none;
+    display: block;
    cursor: pointer;
     z-index: 100;
-    background: rgba(219, 132, 147,1);
+    background: #2C824B;
     border-radius: 100%;
     text-decoration: none;
     color: white;
@@ -46,7 +46,7 @@ overflow: hidden;
 .menu-class{
   
     
-    background: rgba(219, 132, 147,1);
+    background: #2C824B;
     z-index:1000 ;
     width: 100%;
     text-align: center;
@@ -89,7 +89,7 @@ display: block;
 
 .menu-class ul li .children{
     display: none;
-    background: rgba(219, 132, 147,1);
+    background: #2C824B;
     position: absolute;
     width: 150%;
     z-index: 1000;
@@ -232,7 +232,7 @@ font-family: "myfontroboto";
     font-size: 60px;
     font-weight: 300;
     
-    color: rgba(219, 132, 147,1);
+    color: #2C824B;
 }
 
 /*seccion 3*/
@@ -484,10 +484,10 @@ color: rgb(10, 243, 10);
 .section4-6 .img-producto{
 
     z-index: 0;
-    width: 35%;
+    width: 15%;
     position: absolute;
-    top: 20%;
-    left: 60%;
+    top: 10%;
+    left: 70%;
  
 }
 .section4-6 .img-producto img,.section5 .img-producto img{
@@ -587,10 +587,10 @@ border: 2px double  rgb(180, 140, 206);
 .section5 .img-producto{
 
             z-index: 0;
-            width: 35%;
+            width: 15%;
             position: absolute;
-            top: 20%;
-            left: 5%;
+            top: 10%;
+            left: 15%;
          
         }
 
@@ -674,7 +674,7 @@ footer a:hover{
 
 footer h1{
     font-family: myfont;
-    color: rgba(219, 132, 147,1);;
+    color: #2C824B;
 }
 
  footer .foot1{
