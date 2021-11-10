@@ -1,0 +1,282 @@
+body{
+padding-top: 80px;    
+}
+
+/* Diseño de la sección menu */
+.btn-menu-class{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgb(197, 119, 167);
+    z-index: 1000;
+}
+
+.btn-menu-class .btn-menu{
+    display: block;
+    padding: 20px;
+    color:black;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-menu-class span{
+    float: right;
+    font-size: 40px;
+}
+
+.menu-class{
+width: 80%;
+height: calc(100% - 80px);
+position: fixed;
+right: 100%;
+margin: 0;
+overflow: scroll;
+text-align: left;
+}
+
+.menu-class ul li{
+display: block;
+border-bottom:1px solid rgba(255, 255, 255, 0.5) ;
+}
+
+.menu-class ul li a{
+    display: block;
+    }
+.menu-class ul li:hover .children{
+    display:none;
+}    
+
+.menu-class ul li .children{
+       width: 100%;
+       position: relative;
+    }
+.menu-class ul li .children li a{
+        margin-left: 20px;
+     }
+
+.menu-class ul li .flecha{
+       float: right;
+     }     
+
+/*Diseño del título*/
+
+     .titulo-class{
+        width: 90%;
+        margin-left:5%;
+        }
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.section2{
+        
+        text-align: center;
+       line-height: 1.4;
+       width: 100%;
+
+        }
+
+ .section2 p{
+
+        max-width: 700px;
+ }
+ 
+
+        
+
+        
+.section3 .div-titulo h1{
+font-size: 50px;
+font-weight: 150;
+line-height: 1.2;
+
+            
+}
+        
+ .section3 .div-cajas{
+
+ flex-direction: column;
+ height: 800px;     
+        }
+
+.section3 .div-cajas .detalles-mini{
+    display: block;
+    padding: 10px 30px;
+    background: rgb(180, 140, 206);
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+    opacity: 0.7;
+        }
+.section3 .div-cajas .detalles-mini:hover{
+ transform: scale(0.98);
+}
+
+.section3 .div-cajas .caja{
+    
+width: 70%;
+
+margin: 10px;
+
+ }
+
+
+.section3 .div-cajas .caja:hover .capa{
+    transform: scale(0);
+    
+    }
+
+.section3 .div-cajas .close{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    padding: 0.5em;
+}
+
+.section4-6 ,.section5{
+min-height: 500px;
+}
+.section4-6 .producto{
+
+width: 100%;
+
+line-height: 1.2;
+
+}
+
+.section4-6 .producto h1,.section5 .producto h1{
+    font-size: 40px;
+   padding: 0 1em 0;
+
+}
+
+.section4-6 .producto fieldset,.section5 .producto fieldset{
+   width: 80%;
+   left: 10%;
+  
+   
+ }
+
+
+.section4-6 .producto ul ,.section5 .producto ul{
+display: inline-flex;
+
+margin-top: 5%;
+}
+
+.section4-6 .producto ul li ,.section5 .producto ul li{
+   margin: 0 8% 0;
+   font-size: 1em;
+   
+}
+.section4-6 .producto ul h2,.section5 .producto ul h2{
+    display: none;
+    }
+.section4-6 .producto ul img,.section5 .producto ul img{
+        display: block;
+        width: 50%;
+        
+        }
+
+.section4-6 .producto .precio-creativa,.section5 .producto .precio-creativa{
+    
+        font-size: 30px;
+}
+
+
+.section4-6 .img-producto , .section5 .img-producto{
+display: none;
+    z-index: 0;
+    width: 80%;
+    top: 30%;
+    left: 10%;
+ 
+}
+
+.section4-6 .producto form ,.section5 .producto form{
+
+left: 10%;
+width: 80%;
+  
+    }
+
+.section4-6 .producto form input,.section5 .producto form input{
+    height: 20px;
+    font-size: 1em;
+  
+    }
+
+.section5 .producto{
+
+    width: 100%;
+    line-height: 1.2;
+    left: 0;
+    
+    
+    
+    }
+ .section4-6 .descri , .section5 .descri{
+ display: none;
+ z-index: 0;
+ width: 80%;
+ top: 30%;
+ left: 10%;
+         
+}
+
+
+
+
+ .section4-6 .producto .muestra-imagen,.section5 .producto .muestra-imagen{
+     display: block;
+   width: 40%;
+   margin: 1em auto 0;
+     background: rgb(180, 140, 206);
+     color: white;
+     border: 1px white solid;
+     border-radius: 5px;
+     opacity: 0.7;
+}      
+
+
+.section4-6 .producto .muestra-descri,.section5 .producto .muestra-descri{
+    display: block;
+  width: 40%;
+  margin: 1em auto 0;
+    background: rgb(180, 140, 206);
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+    opacity: 0.7;
+}   
+
+.section4-6 .producto .muestra-imagen:hover,.section5 .producto .muestra-imagen:hover{
+    transform: scale(0.98);
+}
+.section7{
+    display: none;
+}     
+
+
+footer {
+margin-top: 100vh;
+    font-size: 10px;
+ line-height: 2.5;
+     
+ }
+
+
+
+ footer a:hover{
+        font-size:1em;
+        
+    }    
+
+ footer .foot3{
+     display: none;
+ }
